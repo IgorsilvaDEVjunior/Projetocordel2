@@ -3,79 +3,85 @@
     padding: 0%;
     margin: 0%;
 }
+:root{
+    --cordourada:rgb(125, 133, 14);
+}
 header{
-    background-color: rgb(0, 0, 0);
-    color: white;
-    height: 250px;
-    position: relative;
-    margin-bottom: 100px;
+    height: 300px;
+    color: var(--cordourada);
+    background-color: black;
 }
 header h1{
-   padding-top: 10px;
-   font-size: 7vw;
-   padding-top: 50px;
-   text-align: center; 
-}
-header  a{
-    color: white;
-    text-decoration: none;
-}
-header  a:hover{
-    color: rgb(179, 179, 179);
-    font-size: 20.1px;
+    padding-top: 50PX;
+    font-size: 8VW;
+    text-align: center;
+    font-variant: small-caps;
 }
 header p{
-    position: absolute;
-    bottom:1px;
-    left:50%;
-    bottom: 25%;
-    transform: translate(-50%);
+     text-align: center;
+     padding-top: 40px;
+     font-size: 23px;
 }
-section{
-    margin-bottom: 50px;
-    font-size: 3ch;
-    font-family: cursive;
-    text-indent: 20px;
-    font-weight: bolder;
-    font-style: italic;
-    line-height: 60px ;
-}
-section#img1{
-    background-image: url(imagem/img1.jpg);
-    background-position: center;
-    background-size: cover; 
-    background-attachment: fixed;
-    height: 500px;
-}
-section#img1 > div{
-    background-color: rgba(0, 0, 0, 0.397);
+header a{
+    text-decoration: none;
     color: white;
-    max-width: 450px;
-    margin: 25px; 
-    height: 450px; 
-    position: absolute;
 }
-section#img2{
-    background-image:url(imagem/img2.jpg);
+body{
+    background-color: rgb(244, 250, 255);
+}
+header a:hover{
+    text-decoration: underline 1px;
+}
+.normal{
+    padding-top:15px;
+    padding-top:15px;
+    padding-left:30px; 
+    line-height: 6.5vw;
+    font-size: 3.5vw;
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bolder;
+}
+.img{
+    padding-top:15px;
+    padding-top:15px;
+    padding-left:15px;
+    line-height: 6.5vw;
+    font-size:3.5vw;
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bolder;
+}
+.img p{
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    padding: 15px;
+    display:inline-block
+}
+#img1{
+    background-image: url(imagem/img1.jpg);
+    background-size: cover;    
+    background-attachment: fixed;
     background-position: center;
+}
+#img2{
+    background-image: url(imagem/img2.jpg);
     background-size: cover;
     background-attachment: fixed;
-    height: 500px;
+    background-position: right bottom;
 }
-section#img2 > div{
-    background-color: rgba(24, 24, 24, 0.664);
-    margin:25px;
-    max-width: 450px;
-    height: 450px;
-    position: absolute;
-    color: white;
+#img3{
+    background-image: url(imagem/img3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
-footer{
-    background-color: black;
-    padding: 5px;
-}
-footer > p{
+footer p{
     text-align: center;
+    background-color: black;
     color: white;
+    font-size: 3vw;
+    font-style: italic;
+    font-weight: bold;
     font-family: cursive;
 }
