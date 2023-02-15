@@ -68,7 +68,7 @@ header a:hover{
     background-image: url(imagem/img2.jpg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: right bottom;
+    background-position: right;
 }
 #img3{
     background-image: url(imagem/img3.jpg);
